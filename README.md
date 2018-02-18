@@ -57,7 +57,7 @@ The tools you are installing are:
 
 08. Now set this as the default gemset:
     ```
-    rvm use ruby-2.4.3@rails14 --default
+    rvm use ruby-2.4.3@rails514 --default
     ```
 
 You're done!
