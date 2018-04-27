@@ -45,12 +45,12 @@ The tools you are installing are:
 
   In your terminal type:
     ```
-    rvm use ruby-2.5.0@rails514 --create
+    rvm use ruby-2.5.0@rails520 --create
     ```
 
 07. Now **install the latest Rails**:
     ```
-    gem install rails --version=520 --no-ri --no-rdoc
+    gem install rails --version=5.2.0 --no-ri --no-rdoc
     ```
 
   When it's finished, check the version with `rails -v`. It should be 5.2.0
