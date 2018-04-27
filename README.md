@@ -38,26 +38,26 @@ The tools you are installing are:
 
 05. **Install the latest Ruby** by typing this in your terminal:
     ```
-    rvm install 2.4.3
+    rvm install 2.5.0
     ```
 
 06. Create an RVM gemset:
 
   In your terminal type:
     ```
-    rvm use ruby-2.4.3@rails514 --create
+    rvm use ruby-2.5.0@rails514 --create
     ```
 
 07. Now **install the latest Rails**:
     ```
-    gem install rails --version=5.1.4 --no-ri --no-rdoc
+    gem install rails --version=520 --no-ri --no-rdoc
     ```
 
-  When it's finished, check the version with `rails -v`. It should be 5.1.4
+  When it's finished, check the version with `rails -v`. It should be 5.2.0
 
 08. Now set this as the default gemset:
     ```
-    rvm use ruby-2.4.3@rails514 --default
+    rvm use ruby-2.5.0@rails520 --default
     ```
 
 You're done!
